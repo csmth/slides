@@ -38,7 +38,7 @@ flatpak install fcitx5-unstable org.fcitx.Fcitx5.Addon.TableExtra
 - You need to logout and re-logon and configure your Fcitx5 software again. After re-login, cangjie3/ cangjie5 are available for configuration. The new input methods are put under zh-HK (香港) or zh-TW (台灣) locales, which are different from other Chinese Addons with zh-CN (中国) locales. 你需要登出戶口再登入，之後就可以在 Fcitx5 軟件下找到三代倉頡和五代倉頡。新輸人法在香港和台灣的 locale 下，與其他中文輸入法的中国 locale 並不同類。
 ![Alt](fcitx5_table_extra.jpg)
 
-## Ignore Steamdeck upgrade message
+## Steamdeck update failure message
 You may be asked to update the Fcitx5, but the update fails. Ignore the update failure message. Skip update of this software. 你會被要求更新 Fcitx5 軟件，然後更新失敗。可以無視這項通知。以後不必更新這項軟件。
 ![Alt](steamdeck_fcitx5_update_fail.jpg)
 
