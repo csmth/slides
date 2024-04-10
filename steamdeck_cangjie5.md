@@ -37,7 +37,9 @@ flatpak install fcitx5-unstable org.fcitx.Fcitx5.Addon.TableExtra
 
 
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
-This is only a matter of taste. However there is some inconvenience to use default cangjie input method under fcitx5 for Traditional Chinese users. Fcitx5 consider some words are identical, like 台 / 臺，and 体 / 體. Default cangjie input method always returns 臺 on cangjie code of 台 (IR 戈口), and returns 體 on cangjie code of 体 (ODM 人木一). Some people find this automatic conversion undesirable.
+The choice of input method is only a matter of taste. However there is some inconvenience to use default cangjie input method under fcitx5 for Traditional Chinese users. Fcitx5 consider some words are identical, like 台 / 臺，and 体 / 體. Default cangjie input method always returns 臺 on cangjie code of 台 (IR 戈口), and returns 體 on cangjie code of 体 (ODM 人木一). Cangjie input method only relies on glyphs, this makes automatic conversion painful for Cangjie users. There is no such conversion in cangjie3/ cangjie5. 
+
+選擇使用什麼輸入法只是口味問題。可是，在 Fcitx5 框架下的預設倉頡輸入法對正體中文使用者帶來不便。它視一些字視為相同，例如「台」「臺」和「体」「體」。預設倉頡輸入法在收到「台」的輸入碼（戈口）後輸出「臺」，收到「体」的輸入碼（戈口）後輸出「體」。因為倉頡輸入法的取碼只考慮字符，自動轉換令倉頡輸入法痛苦。而 Fcitx5 框架下的三代倉頡和五代倉頡都沒有自動轉換的情況。
 
 
 
