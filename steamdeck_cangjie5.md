@@ -51,5 +51,7 @@ The choice of input method is only a matter of taste. However there is some inco
 
 選擇使用什麼輸入法只是口味問題。可是，在 Fcitx5 框架下的預設倉頡輸入法對正體中文使用者帶來不便。它視一些字為相同，例如「台」「臺」和「体」「體」。預設倉頡輸入法在收到「台」的輸入碼（戈口）後輸出「臺」，收到「体」的輸入碼（戈口）後輸出「體」。因為倉頡輸入法的取碼只考慮字形，自動轉換令使用倉頡輸入法時痛苦。而 Fcitx5 框架下的三代倉頡和五代倉頡都沒有自動轉換的情況。
 
+## Reference
+- https://fcitx-im.org/wiki/Install_Fcitx_5
 
 
