@@ -13,7 +13,7 @@ flatpak remote-add --user --if-not-exists fcitx5-unstable https://flatpak.fcitx-
 flatpak remotes
 ```
 
-- List the software package being installed and verify their repository (origin). *Widen your terminal to 120 characters width* to display more information about your packages. 列出你的軟件和他們的來源軟件庫 (origin)。把終端器擴闊至 120 字元以方便看到更多軟件資料。
+- List the software package being installed and verify their repository (origin). *Widen your terminal to 120 characters width* to display more information about your packages. 列出你的軟件和他們的來源軟件庫 (origin)。把終端顯示擴闊至 120 字元以方便看到更多軟件資料。
 ```
 flatpak list
 flatpak info org.fcitx.Fcitx5
