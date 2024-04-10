@@ -1,8 +1,6 @@
 # Install cangjie3/ cangjie5 under fcitx5 in steamdeck
 
-Normally Steamdeck only support software installation by flatpak. Steamdeck user can install software of ArchLinux OS but those software will be erased at system upgrade. But its default cangjie input method is unfriendly for Traditional Chinese users. It is much better to use cangjie3/ cangjie5 instead. But these two input methods are not readily available in steamdeck. This guide is to address how to install cangjie3/ cangjie5 under fcitx5 flatpak.
-
-一般情況 Steamdeck 只支援以 Flatpak 安裝軟件。使用者有方法安裝 ArchLinux 的軟件，但這些軟件都在每次系統更新後被移除。而它的預設倉頡輸入法不便利正體中文使用者，使用三代倉頡或五代倉頡有更好效果。可是這兩個輪入法並不是立即能用，本篇目的旨在安裝三代倉頡或五代倉頡輸入法。
+Normally Steamdeck only support software installation by flatpak. Steamdeck user can install software of ArchLinux OS but those software will be erased at system upgrade. But its default cangjie input method is unfriendly for Traditional Chinese users. It is much better to use cangjie3/ cangjie5 instead. But these two input methods are not readily available in steamdeck. This guide is to address how to install cangjie3/ cangjie5 under fcitx5 flatpak. 一般情況 Steamdeck 只支援以 Flatpak 安裝軟件。使用者有方法安裝 ArchLinux 的軟件，但這些軟件都在每次系統更新後被移除。而它的預設倉頡輸入法不便利正體中文使用者，使用三代倉頡或五代倉頡有更好效果。可是這兩個輪入法並不是立即能用，本篇目的旨在安裝三代倉頡或五代倉頡輸入法。
 
 ## Using unstable flatpak of offical fcitx5
 - ```TableExtra``` addon package is hosted under ```fcitx5-unstable``` flatpak repository. Add this repository to your steamdeck. You need TableExtra addon to configure Fcitx5 with cangjie3/ cangjie5. 你需要在增加軟件庫 ```fcitx5-unstable``` 於你的 Steamdeck 下，它的附加軟件 ```TableExtra``` 是三代倉頡或五代倉頡所需。
