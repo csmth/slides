@@ -40,7 +40,7 @@ flatpak install fcitx5-unstable org.fcitx.Fcitx5.Addon.TableExtra
 You may be asked to update the Fcitx5, but the update fails. Ignore the update failure message. Skip update of this software. 你會被要求更新 Fcitx5 軟件，然後更新失敗。可以無視這項通知。以後不必更新這項軟件。
 ![Alt](steamdeck_fcitx5_update_fail.jpg)
 
-- Maybe you are asked to update Fcitx5 because there is a newer version at default repository```flatpak```. However, ```TableExtra```  which cannot be updated depends on ```org.fcitx.Fcitx5```. The update should fail. 你可能被通知去更新 Fcitx5 軟件，那是因為它在預設軟件庫```flatpak```有更新版本。可是，```TableExtra``` 不能更新但又依賴 ```org.fcitx.Fcitx5```。更新該失敗才好。
+- Maybe you are asked to update Fcitx5 because there is a newer version at default repository```flatpak```. However, ```TableExtra```  which cannot be updated depends on ```org.fcitx.Fcitx5```. Better to leave the update fails. 你可能被通知去更新 Fcitx5 軟件，那是因為它在預設軟件庫```flatpak```有更新版本。可是，```TableExtra``` 不能更新但又依賴 ```org.fcitx.Fcitx5```。更新該失敗才好。
 
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
 The choice of input method is only a matter of taste. However there is some inconvenience to use default cangjie input method under fcitx5 for Traditional Chinese users. Fcitx5 consider some words are identical, like 台 / 臺，and 体 / 體. Default cangjie input method always returns 臺 on cangjie code of 台 (IR 戈口), and returns 體 on cangjie code of 体 (ODM 人木一). Cangjie input method only relies on glyphs, this makes automatic conversion painful when using Cangjie. There is no such conversion in cangjie3/ cangjie5. 
