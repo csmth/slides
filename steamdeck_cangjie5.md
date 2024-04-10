@@ -36,4 +36,8 @@ flatpak install fcitx5-unstable org.fcitx.Fcitx5.Addon.TableExtra
 ## Ignore Steamdeck upgrade message
 
 
+## Why cangjie3/ cangjie5 is preferred over default cangjie?
+This is only a matter of taste. However there is some inconvenience to use default cangjie input method under fcitx5 for Traditional Chinese users. Fcitx5 consider some words are identical, like 台 / 臺，and 体 / 體. Default cangjie input method always returns 臺 on cangjie code of 台 (IR 戈口), and returns 體 on cangjie code of 体 (ODM 人木一). Some people find this automatic conversion undesirable.
+
+
 
