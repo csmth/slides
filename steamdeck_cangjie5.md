@@ -52,26 +52,26 @@ flatpak update
 flatpak remote-ls fcitx5-unstable 
 ```
 - Below are the list of choices as of early April-2024 以下是 2024 年四月所見的選項：
-1. org.fcitx.Fcitx5    Main software, not addon 主體軟件，不是附加元件
-2. org.fcitx.Fcitx5.Addon.Anthy
-3. org.fcitx.Fcitx5.Addon.Bamboo
-4. org.fcitx.Fcitx5.Addon.Chewing   Chewing=酷音/新酷音
+1. org.fcitx.Fcitx5 - Main software, not addon 主體軟件，不是附加元件
+2. org.fcitx.Fcitx5.Addon.Anthy - Japanese IME 日語輸入法引擎 https://en.wikipedia.org/wiki/Anthy
+3. org.fcitx.Fcitx5.Addon.Bamboo - Vietnamese IME 越南語輸入法引擎
+4. org.fcitx.Fcitx5.Addon.Chewing - Chewing=酷音/新酷音
 5. org.fcitx.Fcitx5.Addon.ChineseAddons   Addons for Chinese, but not intended for Traditional Chinese 這項附加元件是給中囯人使用，並非以正體中文為目標
 6. org.fcitx.Fcitx5.Addon.Cskk
 7. org.fcitx.Fcitx5.Addon.Hangul
 8. org.fcitx.Fcitx5.Addon.Jyutping
-9. org.fcitx.Fcitx5.Addon.Kkc   A Japanese IME 日語輸入法
+9. org.fcitx.Fcitx5.Addon.Kkc - Japanese IME 日語輸入法引擎
 10. org.fcitx.Fcitx5.Addon.LibThai
-11. org.fcitx.Fcitx5.Addon.Lua   Lau UI addon, not extra input method. For example OpenWRT is using Lua. Lua 不是輸入法，是外掛元件，例如 OpenWRT 就使用 Lua
+11. org.fcitx.Fcitx5.Addon.Lua - Lau UI addon, not extra input method. For example OpenWRT is using Lua. Lua 不是輸入法，是外掛元件，例如 OpenWRT 就使用 Lua
 12. org.fcitx.Fcitx5.Addon.M17N
-13. org.fcitx.Fcitx5.Addon.Mozc   A Japanese IME 日語輸入法　
-14. org.fcitx.Fcitx5.Addon.Rime   Rime=中州韻輸入法引擎，如支援嘸蝦米
-15. org.fcitx.Fcitx5.Addon.Sayura  
-16. org.fcitx.Fcitx5.Addon.Skk
-17. org.fcitx.Fcitx5.Addon.TableExtra   You need this for cangjie3/ cangjie5 用倉三和倉五就需要元件
+13. org.fcitx.Fcitx5.Addon.Mozc - Japanese IME 日語輸入法引擎　
+14. org.fcitx.Fcitx5.Addon.Rime - Rime=中州韻輸入法引擎，如支援嘸蝦米
+15. org.fcitx.Fcitx5.Addon.Sayura - Sinhala IME 僧咖羅語輸入法引擎
+16. org.fcitx.Fcitx5.Addon.Skk - Japanese IME 日語輸入法引擎
+17. org.fcitx.Fcitx5.Addon.TableExtra - You need this for cangjie3/ cangjie5 用倉三和倉五就需要元件
 18. org.fcitx.Fcitx5.Addon.TableOther
-19. org.fcitx.Fcitx5.Addon.Unikey
-20. org.fcitx.Fcitx5.Addon.Zhuyin   Zhuyin/Bopomofo=注音
+19. org.fcitx.Fcitx5.Addon.Unikey - Vietnamese IME 越南語輸入法引擎
+20. org.fcitx.Fcitx5.Addon.Zhuyin - Zhuyin/Bopomofo=注音引擎
 
 
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
