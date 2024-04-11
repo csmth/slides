@@ -52,26 +52,26 @@ flatpak update
 flatpak remote-ls fcitx5-unstable 
 ```
 - Below are the list of choices as of early April-2024 以下是 2024 年四月所見的選項：
-  1. org.fcitx.Fcitx5   Main software, not addon 主體軟件，不是附加元件
-  2. org.fcitx.Fcitx5.Addon.Anthy
-  3. org.fcitx.Fcitx5.Addon.Bamboo
-  4. org.fcitx.Fcitx5.Addon.Chewing
-  5. org.fcitx.Fcitx5.Addon.ChineseAddons  Addons for Chinese, but not intended for Traditional Chinese 這項附加元件是給中囯人使用，並非以正體中文為目標
-  6. org.fcitx.Fcitx5.Addon.Cskk
-  7. org.fcitx.Fcitx5.Addon.Hangul
-  8. org.fcitx.Fcitx5.Addon.Jyutping
-  9. org.fcitx.Fcitx5.Addon.Kkc
-  10. org.fcitx.Fcitx5.Addon.LibThai
-  11. org.fcitx.Fcitx5.Addon.Lua
-  12. org.fcitx.Fcitx5.Addon.M17N
-  13. org.fcitx.Fcitx5.Addon.Mozc
-  14. org.fcitx.Fcitx5.Addon.Rime
-  15. org.fcitx.Fcitx5.Addon.Sayura
-  16. org.fcitx.Fcitx5.Addon.Skk
-  17. org.fcitx.Fcitx5.Addon.TableExtra  You need this for cangjie3/ cangjie5 用倉三和倉五就需要元件
-  18. org.fcitx.Fcitx5.Addon.TableOther
-  19. org.fcitx.Fcitx5.Addon.Unikey
-  20. org.fcitx.Fcitx5.Addon.Zhuyin
+1. org.fcitx.Fcitx5   Main software, not addon 主體軟件，不是附加元件
+2. org.fcitx.Fcitx5.Addon.Anthy
+3. org.fcitx.Fcitx5.Addon.Bamboo
+4. org.fcitx.Fcitx5.Addon.Chewing
+5. org.fcitx.Fcitx5.Addon.ChineseAddons  Addons for Chinese, but not intended for Traditional Chinese 這項附加元件是給中囯人使用，並非以正體中文為目標
+6. org.fcitx.Fcitx5.Addon.Cskk
+7. org.fcitx.Fcitx5.Addon.Hangul
+8. org.fcitx.Fcitx5.Addon.Jyutping
+9. org.fcitx.Fcitx5.Addon.Kkc
+10. org.fcitx.Fcitx5.Addon.LibThai
+11. org.fcitx.Fcitx5.Addon.Lua
+12. org.fcitx.Fcitx5.Addon.M17N
+13. org.fcitx.Fcitx5.Addon.Mozc
+14. org.fcitx.Fcitx5.Addon.Rime
+15. org.fcitx.Fcitx5.Addon.Sayura
+16. org.fcitx.Fcitx5.Addon.Skk
+17. org.fcitx.Fcitx5.Addon.TableExtra  You need this for cangjie3/ cangjie5 用倉三和倉五就需要元件
+18. org.fcitx.Fcitx5.Addon.TableOther
+19. org.fcitx.Fcitx5.Addon.Unikey
+20. org.fcitx.Fcitx5.Addon.Zhuyin
 
 
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
