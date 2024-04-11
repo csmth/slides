@@ -53,13 +53,13 @@ flatpak remote-ls fcitx5-unstable
 ```
 - Below are the list of choices as of early April-2024 以下是 2024 年四月所見的選項： (My comment is vague because I don't use them 我的註解含糊因為我完全沒使用它們)
 
-| Package Name                            | My Comment                                                                                                            |
+| Package Name                            | My Vague Comment                                                                                                      |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | org.fcitx.Fcitx5                        | Primary software, not addon 主體軟件，不是附加元件                                                                       |
 | org.fcitx.Fcitx5.Addon.Anthy            | Japanese IME 日語輸入法引擎 https://en.wikipedia.org/wiki/Anthy                                                         |
 | org.fcitx.Fcitx5.Addon.Bamboo           | Vietnamese IME 越南語輸入法引擎                                                                                         |
 | org.fcitx.Fcitx5.Addon.Chewing          | Chewing=酷音/新酷音                                                                                                    |
-| org.fcitx.Fcitx5.Addon.ChineseAddons    | Addons for Simplified Chinese, not for Traditional Chinese 給中囯人使用，並非以正體中文為目標                              |
+| org.fcitx.Fcitx5.Addon.ChineseAddons    | Addons for Simplified Chinese, not for Traditional Chinese 支援簡體中文，並非以支援正體中文為目標                           |
 | org.fcitx.Fcitx5.Addon.Cskk             | Japanese IME 日語輸入法引擎                                                                                             |
 | org.fcitx.Fcitx5.Addon.Hangul           | Korean IME 韓語輸入法引擎                                                                                               |
 | org.fcitx.Fcitx5.Addon.Jyutping         | Jyutping=粵拼                                                                                                         |
