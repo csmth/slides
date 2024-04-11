@@ -53,5 +53,6 @@ The choice of input method is only a matter of taste. However there is some inco
 
 ## Reference
 - Official Fcitx5 installation Guide 官網安裝指引 https://fcitx-im.org/wiki/Install_Fcitx_5
+- Another method by installing fcitx5 under ArchLinux software 安裝 ArchLinux 的 fcitx5 軟件的另一方法 https://forum.gamer.com.tw/C.php?bsn=60599&snA=40156
 
 
