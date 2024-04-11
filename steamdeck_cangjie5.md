@@ -62,11 +62,11 @@ flatpak remote-ls fcitx5-unstable
 8. org.fcitx.Fcitx5.Addon.Jyutping
 9. org.fcitx.Fcitx5.Addon.Kkc
 10. org.fcitx.Fcitx5.Addon.LibThai
-11. org.fcitx.Fcitx5.Addon.Lua
+11. org.fcitx.Fcitx5.Addon.Lua   Lau UI addon, not extra input method. For example OpenWRT is using Lua. Lua 不是輸入法，是外掛元件，例如 OpenWRT 就使用 Lua
 12. org.fcitx.Fcitx5.Addon.M17N
 13. org.fcitx.Fcitx5.Addon.Mozc
-14. org.fcitx.Fcitx5.Addon.Rime
-15. org.fcitx.Fcitx5.Addon.Sayura
+14. org.fcitx.Fcitx5.Addon.Rime  嘸蝦米
+15. org.fcitx.Fcitx5.Addon.Sayura  
 16. org.fcitx.Fcitx5.Addon.Skk
 17. org.fcitx.Fcitx5.Addon.TableExtra  You need this for cangjie3/ cangjie5 用倉三和倉五就需要元件
 18. org.fcitx.Fcitx5.Addon.TableOther
