@@ -72,7 +72,7 @@ flatpak remote-ls fcitx5-unstable
 | org.fcitx.Fcitx5.Addon.Sayura           | Sinhala IME 僧咖羅語輸入法引擎                                                                                          |
 | org.fcitx.Fcitx5.Addon.Skk              | Japanese IME 日語輸入法引擎                                                                                             |
 | org.fcitx.Fcitx5.Addon.TableExtra       | Need this for cangjie3/ cangjie5/ quick3/ quick5 (HK/TW tables) 用倉三倉五快三快五就需要此元件 (港台列表)                   |
-| org.fcitx.Fcitx5.Addon.TableOther       | IME tables to support non-Chinese-lanaguages 支援其他語言列表，非華語系                                                   |
+| org.fcitx.Fcitx5.Addon.TableOther       | IME tables to support non-Chinese-lanaguages 支援其他語言輸入法列表，非華語系                                              |
 | org.fcitx.Fcitx5.Addon.Unikey           | Vietnamese IME 越南語輸入法引擎                                                                                         |
 | org.fcitx.Fcitx5.Addon.Zhuyin           | Zhuyin/Bopomofo=注音引擎                                                                                               |
 
