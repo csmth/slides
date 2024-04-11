@@ -65,7 +65,7 @@ flatpak remote-ls fcitx5-unstable
 | org.fcitx.Fcitx5.Addon.Jyutping         | Jyutping=粵拼                                                                                                         |
 | org.fcitx.Fcitx5.Addon.Kkc              | Japanese IME 日語輸入法引擎                                                                                             |
 | org.fcitx.Fcitx5.Addon.LibThai          | Thai language related 泰語相關 https://github.com/tlwg/libthai                                                         |
-| org.fcitx.Fcitx5.Addon.Lua              | Lua UI addon, not extra input method. For example OpenWRT uses Lua. Lua 不是輸入法是外掛元件，例如 OpenWRT 使用 Lua UI     |                                                                                    |
+| org.fcitx.Fcitx5.Addon.Lua              | Lua UI addon, not extra input method. For example OpenWRT uses Lua UI. Lua 不是輸入法是外掛元件，例如 OpenWRT 使用 Lua UI  |                                                                                    |
 | org.fcitx.Fcitx5.Addon.Mozc             | Japanese IME 日語輸入法引擎                                                                                             |
 | org.fcitx.Fcitx5.Addon.Rime             | Rime=中州韻輸入法引擎，如支援嘸蝦米                                                                                       |
 | org.fcitx.Fcitx5.Addon.Sayura           | Sinhala IME 僧咖羅語輸入法引擎                                                                                          |
