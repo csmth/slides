@@ -66,7 +66,7 @@ flatpak remote-ls fcitx5-unstable
 | org.fcitx.Fcitx5.Addon.Kkc              | Japanese IME 日語輸入法引擎                                                                                             |
 | org.fcitx.Fcitx5.Addon.LibThai          | Thai language related 泰語相關 https://github.com/tlwg/libthai                                                         |
 | org.fcitx.Fcitx5.Addon.Lua              | Lua UI addon not IME. For example OpenWRT uses Lua UI. Lua 不是輸入法引擎是外掛支援，例如 OpenWRT 使用 Lua UI              |
-| org.fcitx.Fcitx5.Addon.M17N             | M17N addon not IME, 不是輸入法引擎是外掛支援，見 https://www.nongnu.org/m17n/                                             |
+| org.fcitx.Fcitx5.Addon.M17N             | Refer 見 https://www.nongnu.org/m17n/                                                                                 |
 | org.fcitx.Fcitx5.Addon.Mozc             | Japanese IME 日語輸入法引擎                                                                                             |
 | org.fcitx.Fcitx5.Addon.Rime             | Rime=中州韻輸入法引擎，如支援嘸蝦米                                                                                       |
 | org.fcitx.Fcitx5.Addon.Sayura           | Sinhala IME 僧咖羅語輸入法引擎                                                                                          |
@@ -76,7 +76,6 @@ flatpak remote-ls fcitx5-unstable
 | org.fcitx.Fcitx5.Addon.Unikey           | Vietnamese IME 越南語輸入法引擎                                                                                         |
 | org.fcitx.Fcitx5.Addon.Zhuyin           | Zhuyin/Bopomofo=注音引擎                                                                                               |
 
-
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
 The choice of input method is only a matter of taste. However there is some inconvenience to use default cangjie input method under fcitx5 for Traditional Chinese users. Fcitx5 consider some words are identical, like 台 / 臺，and 体 / 體. Default cangjie input method always returns 臺 on cangjie code of 台 (IR 戈口), and returns 體 on cangjie code of 体 (ODM 人木一). Cangjie input method only relies on glyphs, this makes automatic conversion painful when using Cangjie. There is no such conversion in cangjie3/ cangjie5. 
 
@@ -85,5 +84,6 @@ The choice of input method is only a matter of taste. However there is some inco
 ## Reference
 - Official Fcitx5 installation Guide 官網安裝指引 https://fcitx-im.org/wiki/Install_Fcitx_5
 - Another method by installing fcitx5 under ArchLinux software 安裝 ArchLinux 的 fcitx5 軟件的另一方法 https://forum.gamer.com.tw/C.php?bsn=60599&snA=40156
+- Introduce Various IME 介紹各輸入法引擎 https://wiki.archlinux.org/title/Input_method
 
 
