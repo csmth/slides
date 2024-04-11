@@ -26,7 +26,7 @@ flatpak uninstall org.fcitx.Fcitx5
 flatpak uninstall org.fcitx.Fcitx5.Addon.ChineseAddons
 ```
 
-- Install these three packages from the same flatpak origin: ```fcitx5-unstable```. 這三個軟件應來自同一軟件庫： ```fcitx5-unstable```。
+- Install these three packages from the same flatpak origin: ```fcitx5-unstable```. 這三個軟件應來自同一軟件庫： ```fcitx5-unstable``` 以確保沒有阻力。
 ```
 flatpak install fcitx5-unstable org.fcitx.Fcitx5
 flatpak install fcitx5-unstable org.fcitx.Fcitx5.Addon.ChineseAddons
