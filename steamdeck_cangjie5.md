@@ -70,10 +70,10 @@ flatpak remote-ls fcitx5-unstable
 | org.fcitx.Fcitx5.Addon.Rime             | Rime=中州韻輸入法引擎，如支援嘸蝦米                                                                                       |
 | org.fcitx.Fcitx5.Addon.Sayura           | Sinhala IME 僧咖羅語輸入法引擎                                                                                          |
 | org.fcitx.Fcitx5.Addon.Skk              | Japanese IME 日語輸入法引擎                                                                                             |
-| org.fcitx.Fcitx5.Addon.TableExtra       | You need this for cangjie3/ cangjie5 用倉三倉五快三快五就需要此元件                                                       |
-| org.fcitx.Fcitx5.Addon.TableOther       | IME to support different lanaguages not supported otherelse 支援其他語言                                               |
-| org.fcitx.Fcitx5.Addon.Unikey           | Vietnamese IME 越南語輸入法引擎                                                                                        |
-| org.fcitx.Fcitx5.Addon.Zhuyin           | Zhuyin/Bopomofo=注音引擎                                                                                             |
+| org.fcitx.Fcitx5.Addon.TableExtra       | Need this for cangjie3/ cangjie5/ quick3/ quick5 用倉三倉五快三快五就需要此元件                                            |
+| org.fcitx.Fcitx5.Addon.TableOther       | IME to support different lanaguages not supported otherelse 支援其他語言                                                |
+| org.fcitx.Fcitx5.Addon.Unikey           | Vietnamese IME 越南語輸入法引擎                                                                                         |
+| org.fcitx.Fcitx5.Addon.Zhuyin           | Zhuyin/Bopomofo=注音引擎                                                                                               |
 
 
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
