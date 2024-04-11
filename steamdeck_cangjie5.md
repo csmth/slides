@@ -20,13 +20,13 @@ flatpak info org.fcitx.Fcitx5
 flatpak info org.fcitx.Fcitx5.Addon.ChineseAddons
 ```
 
-- Uninstall offical fcitx5, if the source is not ```fcitx5-unstable```. Skip this step if fcitx5 is not installed. 如果你已經安裝了 Fcitx5 而來源並不是```fcitx5-unstable```，移除它們。
+- Uninstall offical fcitx5 if their origin are not ```fcitx5-unstable```. Skip this step if fcitx5 is not installed. 如果你已經安裝了 Fcitx5 而來源並不是```fcitx5-unstable```，移除它們。
 ```
 flatpak uninstall org.fcitx.Fcitx5
 flatpak uninstall org.fcitx.Fcitx5.Addon.ChineseAddons
 ```
 
-- These three packages MUST comes from the same flatpak source. That is all fcitx5 packages comes from fcitx5-unstable. 這三個軟件必須從同一軟件庫，即是全部都來自 ```fcitx5-unstable```。
+- Install these three packages from the same flatpak origin: ```fcitx5-unstable```. 這三個軟件應來自同一軟件庫： ```fcitx5-unstable```。
 ```
 flatpak install fcitx5-unstable org.fcitx.Fcitx5
 flatpak install fcitx5-unstable org.fcitx.Fcitx5.Addon.ChineseAddons
