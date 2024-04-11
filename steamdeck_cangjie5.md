@@ -46,8 +46,8 @@ flatpak update
 ```
 - This command may ask you to update other flatpak components (in my case that is ```org.kde.Platform/x86_64``` that matches the error message above). Accept this so that fcitx5 can be updated. After this Steamdeck update process will resume normally. 這項指令可能要求你更新其它 Flatpak 元件 (我的情況是更新 ```org.kde.Platform/x86_64``` 合乎上圖訊息)，接受它，這樣 fcitx5 就可以更新了。之後 Steamdeck 軟件更新程序會回復正常。
 
-## But I wish to pick other input methods
-- Repository ```fcitx5-unstable``` provides other addons that support different input methods, and you do not need to pick cangjie3/ cangjie5. This is the command to list the addons: 軟件庫```fcitx5-unstable```提供其他附加附件支援不同的輸入法，提供有別於倉頡三代和五代的選擇：
+## But I wish to pick other input methods or IMEs
+- Repository ```fcitx5-unstable``` provides other addons that support different input methods or IMEs (Input Method Engines), and you do not need to pick cangjie3/ cangjie5, or in case you need cangjie under other IMEs. This is the command to list the addons: 軟件庫```fcitx5-unstable```提供其他附加附件支援不同的輸入法和輸入法引擎，提供有別於倉頡三代和五代的選擇，或以其他引擎使用倉頡五代：
 ```
 flatpak remote-ls fcitx5-unstable 
 ```
