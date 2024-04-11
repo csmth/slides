@@ -47,10 +47,12 @@ flatpak update
 - This command may ask you to update other flatpak components (in my case that is ```org.kde.Platform/x86_64``` that matches the error message above). Accept this so that fcitx5 can be updated. After this Steamdeck update process will resume normally. 這項指令可能要求你更新其它 Flatpak 元件 (我的情況是更新 ```org.kde.Platform/x86_64``` 合乎上圖訊息)，接受它，這樣 fcitx5 就可以更新了。之後 Steamdeck 軟件更新程序會回復正常。
 
 ## But I wish to pick other input methods
-- Repository ```fcitx5-unstable``` provides other addons that support different input methods, and you do not need to pick cangjie3/ cangjie5. This is the command to list the addons:
+- Repository ```fcitx5-unstable``` provides other addons that support different input methods, and you do not need to pick cangjie3/ cangjie5. This is the command to list the addons: 軟件庫```fcitx5-unstable```提供其他附加附件支援不同的輸入法，提供有別於倉頡三代和五代的選擇：
 ```
 flatpak remote-ls fcitx5-unstable 
 ```
+- Below are the list of choices as of early April-2024 以下是 2024 年四月所見的選項：
+  1.  
 
 ## Why cangjie3/ cangjie5 is preferred over default cangjie?
 The choice of input method is only a matter of taste. However there is some inconvenience to use default cangjie input method under fcitx5 for Traditional Chinese users. Fcitx5 consider some words are identical, like 台 / 臺，and 体 / 體. Default cangjie input method always returns 臺 on cangjie code of 台 (IR 戈口), and returns 體 on cangjie code of 体 (ODM 人木一). Cangjie input method only relies on glyphs, this makes automatic conversion painful when using Cangjie. There is no such conversion in cangjie3/ cangjie5. 
