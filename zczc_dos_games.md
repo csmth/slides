@@ -14,6 +14,7 @@
 
 # List of Chinese DOS game online at zczc (2)
 - 華麗人生 https://dos.zczc.cz/games/%E5%8D%8E%E4%B8%BD%E4%BA%BA%E7%94%9F2/
+- 信長之野望·天翔記 https://dos.zczc.cz/games/%E4%BF%A1%E9%95%BF%E4%B9%8B%E9%87%8E%E6%9C%9B%E5%A4%A9%E7%BF%94%E8%AE%B0/
 
 # List of English DOS game online at zczc (1)
 
