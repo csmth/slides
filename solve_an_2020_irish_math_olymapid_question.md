@@ -51,7 +51,7 @@
 (\frac{a+b}{\sqrt{(b+c)(c+a)}})  (\frac{b+c}{\sqrt{(c+a)(a+b)}})  (\frac{c+a}{\sqrt{(b+c)(a+b)}}) \geq 1
 ```
 
-- But it is equal now (recall that a,b,c are all positive):
+- But it is equal now:
 ```math
 (a+b)(b+c)(c+a) = \sqrt{(b+c)(c+a)} \sqrt{(c+a)(a+b)} \sqrt{(b+c)(a+b)}
 ```
