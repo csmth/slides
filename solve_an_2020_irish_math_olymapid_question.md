@@ -5,10 +5,9 @@
 ```
 ![Alt the question in image](olympiad_irish_math_2020.jpg)
 - Refer to [LaTex-like formula markdown syntax here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
-- Refer to [AM-GM inequality](https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality). This question involves AM-GM inequality.
 
 # An answer
-- Divide both side by 3, and trying to apply AM-GM inequality, it is sufficient to prove that:
+- Divide both side by 3, and trying to apply [AM-GM inequality](https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality), it is sufficient to prove that:
 
 ```math
 ((\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7}  (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7}  (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7}) ^ \frac{1}{3} \geq 1
