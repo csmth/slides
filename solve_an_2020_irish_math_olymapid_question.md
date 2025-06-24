@@ -3,7 +3,7 @@
 ```math
 (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} \geq 3
 ```
-
+gain
 - Readers can refer to LaTex-like formula reference here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 ![Alt the question in image](olympiad_irish_math_2020.jpg)
 
@@ -29,7 +29,8 @@
 (a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq (b+c)(c+a)(c+a)(a+b)(a+b)(b+c) = ((b+c)(c+a)(a+b)) ^ 2
 ```
 
-- Brute force rewrite gain:
+- Rewrite it as:
 ```math
- 2abc(c+a)(a+b)(b+c) + aba(c+a)(a+b)(a+b) + acc(c+a)(c+a)(b+c) + aca(c+a)(c+a)(a+b) + bbc(b+c)(a+b)(b+c) + bba(b+c)(a+b)(a+b) + bcc(b+c)(c+a)c(b+c) \geq ((b+c)(c+a)(a+b)) ^ 2
+ (a^2+b^2+c(a+b) (b^2+c^2+a(b+c) (c^2+a^2+b(c+a) \geq ((b+c)(c+a)(a+b)) ^ 2
 ```
+
