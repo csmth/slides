@@ -71,7 +71,7 @@
 \frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \geq \frac{3}{2}
 ```
 ```math
-(\frac{a}{b+c} + \frac{b}{c+a}) + (\frac{c}{a+b} + + \frac{c}{a+b}) + ( \frac{c}{a+b} + \frac{a}{b+c}) \geq 3
+(\frac{a}{b+c} + \frac{b}{c+a}) + (\frac{c}{a+b} + \frac{c}{a+b}) + ( \frac{c}{a+b} + \frac{a}{b+c}) \geq 3
 ```
 - The problem becomes to prove that: 
 ```math
