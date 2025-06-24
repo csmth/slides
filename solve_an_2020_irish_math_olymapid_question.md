@@ -27,7 +27,7 @@
 ```math
 \frac{1}{2} (\frac{u}{w} + \frac{u}{v}) \geq \frac{u}{\sqrt{vw}}
 ```
-- Formula (1) + (2) results in:
+- Adding Formula (1) and (2) results is:
 
 ```math
 \frac{1}{2} (\frac{v+u}{w} + \frac{w+u}{v}) \geq 1 + \frac{u}{\sqrt{vw}}
