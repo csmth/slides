@@ -29,9 +29,11 @@ gain
 (a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq = ((b+c)(c+a)(a+b)) ^ 2
 ```
 
-- Prepare for Cauchy–Schwarz inequality. Let u, v, w be b+c, c+a and a+b respectively, so that a, b, c are (v+w-u)/2, (w+u-v)/2 and (u+v-w)/2:
+- Prepare for Cauchy–Schwarz inequality. Let u, v, w be b+c, c+a and a+b respectively, so that a, b, c are (v+w-u)/2, (w+u-v)/2 and (u+v-w)/2. It is rewritten as:
 ```math
  (av + bu) (bw + cv) (cv + aw) \geq (uvw)^2
 ```
+
+- 
 
 
