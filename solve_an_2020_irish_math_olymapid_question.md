@@ -31,6 +31,6 @@ gain
 
 - Rewrite it as:
 ```math
- (a^2+b^2+c(a+b) (b^2+c^2+a(b+c) (c^2+a^2+b(c+a) \geq ((b+c)(c+a)(a+b)) ^ 2
+ (a^2+b^2+c(a+b)) (b^2+c^2+a(b+c)) (c^2+a^2+b(c+a)) \geq ((b+c)(c+a)(a+b)) ^ 2
 ```
 
