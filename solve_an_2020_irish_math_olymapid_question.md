@@ -7,7 +7,7 @@ gain
 - Readers can refer to LaTex-like formula reference here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 ![Alt the question in image](olympiad_irish_math_2020.jpg)
 
-# My answer
+# An answer
 - Divide both side by 3, and trying to apply AM >= GM inequality, it is sufficient to prove that:
 
 ```math
@@ -19,22 +19,5 @@ gain
 (\frac{a}{b+c} + \frac{b}{c+a})  (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c}) \geq (1 ^ 7) ^ 3 = 1
 ```
 
-- I don't have a good way to solve it quick. Rewrite the inequality by brute force:
-```math
-(\frac{a(c+a) + b(b+c)}{(b+c)(c+a)})  (\frac{b(a+b) + c(c+a)}{(c+a)(a+b)} ) (\frac{c(b+c) +a(a+b)}{(a+b)(b+c)} ) \geq 1
-```
-
--  All denominators are positive so I can rewrite by multiplication:
-```math
-(a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq = ((b+c)(c+a)(a+b)) ^ 2
-```
-
-- Prepare for Cauchy–Schwarz inequality. Let u, v, w be b+c, c+a and a+b respectively, so that a, b, c are (v+w-u)/2, (w+u-v)/2 and (u+v-w)/2. It is rewritten as:
-```math
- (av + bu) (bw + cv) (cu + aw) \geq (uvw)^2
-```
-
-- The Cauchy–Schwarz inequality vector will be x= [a,b,c] and y= [u,v,w]
-
-
-
+* $`\frac{a}{b+c} + \frac{b}{c+a}`$ is tricky part to handle. Want to prove that this is greater or equal to $` \frac{a+b}{\sqrt{(b+c)(c+a)}}`$:
+** Test
