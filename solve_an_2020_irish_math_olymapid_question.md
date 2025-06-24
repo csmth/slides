@@ -44,11 +44,11 @@
 ## Back to the question
 - Return to the inequality to be proven:
 ```math
-(\frac{a}{b+c} + \frac{b}{c+a})  (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c}) \geq = 1
+(\frac{a}{b+c} + \frac{b}{c+a})  (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c}) \geq 1
 ```
 - It is sufficient to prove that:
 ```math
-(\frac{a+b}{\sqrt{(b+c)(c+a)}})  (\frac{b+c}{\sqrt{(c+a)(a+b)}})  (\frac{c+a}{\sqrt{(b+c)(a+b)}}) \geq = 1
+(\frac{a+b}{\sqrt{(b+c)(c+a)}})  (\frac{b+c}{\sqrt{(c+a)(a+b)}})  (\frac{c+a}{\sqrt{(b+c)(a+b)}}) \geq 1
 ```
 
 - But it is equal now (recall that a,b,c are all positive):
