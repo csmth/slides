@@ -6,7 +6,7 @@
 ![Alt the question in image](olympiad_irish_math_2020.jpg)
 - Refer to [LaTex-like formula markdown syntax here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 
-# An answer
+# Answer
 - Divide both side by 3 and applying [AM-GM inequality](https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality), it is sufficient to prove that:
 
 ```math
