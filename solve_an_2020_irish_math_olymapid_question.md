@@ -21,7 +21,7 @@
 - Let u, v, w be a+b, b+c and c+a respectively. They are all positive. That results in a= (u-v+w)/2, b= (v-w+u)/2, c= (w-u+v)/2.
 - Formula (1) holds due to AM >= GM
 ```math
-\frac{1}{2} ( \frac{v}{w} + \frac{w}{v}) \geq \sqrt{ \frac{v}{w} \frac{w}{v}} = 1 
+\frac{1}{2} ( \frac{v}{w} + \frac{w}{v}) \geq \sqrt{ (\frac{v}{w} \frac{w}{v}) } = 1 
 ```
 - Formula (2) holds also due to AM >= GM
 ```math
@@ -38,6 +38,7 @@
 ```math
 \frac{b}{w} + \frac{a}{v} \geq \frac{u}{\sqrt{vw}} = \frac{a+b}{\sqrt{(b+c)(c+a)}}
 ```
+- Similar cases for $`\frac{b}{c+a} + \frac{c}{a+b}`$ and $`\frac{c}{a+b} + \frac{a}{b+c}`$
 
 ## Back to the question
 - Return to the inequality to be proven:
