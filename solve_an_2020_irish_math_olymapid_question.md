@@ -59,7 +59,7 @@
 ```math
 \frac{ (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} }{3}
 \geq ((\frac{a}{b+c} + \frac{b}{c+a}) (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c})) ^ \frac{1}{21}
-\geq (\frac{a+b}{\sqrt{(b+c)(c+a)}}  \frac{b+c}{\sqrt{(c+a)(a+b)}} \frac{c+a}{\sqrt{(b+c)(a+b)}}) ^ \frac{1}{21}
+\geq (\frac{a+b}{\sqrt{(b+c)(c+a)}} \frac{b+c}{\sqrt{(c+a)(a+b)}} \frac{c+a}{\sqrt{(b+c)(a+b)}}) ^ \frac{1}{21}
 = 1 ^ \frac{1}{21}
 ```
 
