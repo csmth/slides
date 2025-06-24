@@ -26,7 +26,10 @@
 
 -  All denominators are positive so I can rewrite this:
 ```math
-(a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c)) +a(a+b)  \geq (b+c)(c+a)(c+a)(a+b)(a+b)(b+c) = ((b+c)(c+a)(a+b)) ^ 2
+(a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq (b+c)(c+a)(c+a)(a+b)(a+b)(b+c) = ((b+c)(c+a)(a+b)) ^ 2
 ```
 
-- 
+- Brute force rewrite gain:
+```math
+ 2abc(c+a)(a+b)(b+c) + aba(c+a)(a+b)(a+b) + acc(c+a)(c+a)(b+c) + aca(c+a)(c+a)(a+b) + bbc(b+c)(a+b)(b+c) + bba(b+c)(a+b)(a+b) + bcc(b+c)(c+a)c(b+c) \geq ((b+c)(c+a)(a+b)) ^ 2
+```
