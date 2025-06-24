@@ -24,19 +24,18 @@ gain
 (\frac{a(c+a) + b(b+c)}{(b+c)(c+a)})  (\frac{b(a+b) + c(c+a)}{(c+a)(a+b)} ) (\frac{c(b+c) +a(a+b)}{(a+b)(b+c)} ) \geq 1
 ```
 
--  All denominators are positive so I can rewrite this:
+-  All denominators are positive so I can rewrite by multiplication:
 ```math
 (a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq (b+c)(c+a)(c+a)(a+b)(a+b)(b+c) = ((b+c)(c+a)(a+b)) ^ 2
 ```
 
-- Rewrite it as:
-```math
- (a^2+b^2+c(a+b)) (b^2+c^2+a(b+c)) (c^2+a^2+b(c+a)) \geq ((b+c)(c+a)(a+b)) ^ 2
-```
-
 - Rewrite it by substrction:
 ```math
- (a^2+b^2+c(a+b)) (b^2+c^2+a(b+c)) (c^2+a^2+b(c+a)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
+ (a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
+```
+- Brute force:
+```math
+ ((a-b)^2+2ab+c(a+b)) ((b-c)^2+2cb+a(b+c)) ((c-a)^2+2ca+b(c+a)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
 ```
 
 
