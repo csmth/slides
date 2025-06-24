@@ -23,19 +23,19 @@
 - Let u, v, w be a+b, b+c and c+a respectively. They are all positive. That results in a= (u-v+w)/2, b= (v-w+u)/2, c= (w-u+v)/2.
 - Formula (1) holds due to AM >= GM
 ```math
-\frac{v}{w} + \frac{w}{v} \geq 2 
+\frac{1}{2} ( \frac{v}{w} + \frac{w}{v}) \geq \sqrt{ \frac{v}{w} \frac{w}{v}} = 1 
 ```
 - Formula (2) holds also due to AM >= GM
 ```math
-\frac{u}{w} + \frac{u}{v} \geq 2 \frac{u}{\sqrt{vw}}
+\frac{1}{2} (\frac{u}{w} + \frac{u}{v}) \geq \frac{u}{\sqrt{vw}}
 ```
 - Formula (1) + (2) results in:
 
 ```math
-\frac{v+u}{w} + \frac{w+u}{v} \geq 2 + 2 \frac{u}{\sqrt{vw}}
+\frac{1}{2} (\frac{v+u}{w} + \frac{w+u}{v}) \geq 1 + \frac{u}{\sqrt{vw}}
 ```
 ```math
-\frac{v+u}{w} -1 + \frac{w+u}{v} -1 = \frac{v+u-w}{w} + \frac{w+u-v}{v} \geq 2 \frac{u}{\sqrt{vw}}
+\frac{1}{2} (\frac{v+u}{w} -1 + \frac{w+u}{v} -1 = \frac{v+u-w}{w}) + \frac{w+u-v}{v} \geq \frac{u}{\sqrt{vw}}
 ```
 ```math
 \frac{b}{w} + \frac{a}{v} \geq \frac{u}{\sqrt{vw}} = \frac{a+b}{\sqrt{(b+c)(c+a)}}
