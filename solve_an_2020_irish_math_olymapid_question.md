@@ -33,9 +33,9 @@ gain
 ```math
  (a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
 ```
-- Brute force:
+- Prepare for brute force rewrite:
 ```math
- ((a-b)^2+2ab+c(a+b)) ((b-c)^2+2cb+a(b+c)) ((c-a)^2+2ca+b(c+a)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
+ ((a^2+b^2+c(a+b)) ((b^2+c^2+a(b+c)) ((c^2+a^2+b(c+a)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
 ```
 
 
