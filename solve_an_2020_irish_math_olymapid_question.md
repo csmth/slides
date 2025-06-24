@@ -31,9 +31,10 @@ gain
 
 - Prepare for Cauchy–Schwarz inequality. Let u, v, w be b+c, c+a and a+b respectively, so that a, b, c are (v+w-u)/2, (w+u-v)/2 and (u+v-w)/2. It is rewritten as:
 ```math
- (av + bu) (bw + cv) (cv + aw) \geq (uvw)^2
+ (av + bu) (bw + cv) (cu + aw) \geq (uvw)^2
 ```
 
-- 
+- The Cauchy–Schwarz inequality vector will be x= [a,b,c] and y= [u,v,w]
+
 
 
