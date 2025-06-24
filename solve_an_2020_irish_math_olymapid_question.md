@@ -35,7 +35,7 @@
 \frac{v+u}{w} + \frac{w+u}{v} \geq 2 + 2 \frac{u}{\sqrt{vw}}
 ```
 ```math
-\frac{v+u-w}{w} + \frac{w+u-v}{v} \geq 2 \frac{u}{\sqrt{vw}}
+\frac{v+u}{w} -1 + \frac{w+u}{v} -1 = \frac{v+u-w}{w} + \frac{w+u-v}{v} \geq 2 \frac{u}{\sqrt{vw}}
 ```
 ```math
 \frac{b}{w} + \frac{a}{v} \geq \frac{u}{\sqrt{vw}} = \frac{a+b}{\sqrt{(b+c)(c+a)}}
