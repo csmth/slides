@@ -19,7 +19,7 @@ gain
 (\frac{a}{b+c} + \frac{b}{c+a})  (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c}) \geq (1 ^ 7) ^ 3 = 1
 ```
 
-- I don't have a good way to solve it quick. Rewrite the inequality by brute force.
+- I don't have a good way to solve it quick. Rewrite the inequality by brute force:
 ```math
 (\frac{a(c+a) + b(b+c)}{(b+c)(c+a)})  (\frac{b(a+b) + c(c+a)}{(c+a)(a+b)} ) (\frac{c(b+c) +a(a+b)}{(a+b)(b+c)} ) \geq 1
 ```
@@ -33,4 +33,10 @@ gain
 ```math
  (a^2+b^2+c(a+b)) (b^2+c^2+a(b+c)) (c^2+a^2+b(c+a)) \geq ((b+c)(c+a)(a+b)) ^ 2
 ```
+
+- Rewrite it by substrction:
+```math
+ (a^2+b^2+c(a+b)) (b^2+c^2+a(b+c)) (c^2+a^2+b(c+a)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
+```
+
 
