@@ -64,3 +64,17 @@
 ```
 
 - The number 7 in the question can be replaced by any positive number, as 1 to the power of anything is 1.
+
+# By Titu’s Lemma or Nesbitt's inequality
+- By [Titu's Lemma](https://en.wikipedia.org/wiki/Titu%27s_lemma), it is known that:
+```math
+\frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \geq \frac{3}{2}
+```
+```math
+(\frac{a}{b+c} + \frac{b}{c+a}) + (\frac{c}{a+b} + + \frac{c}{a+b}) + ( \frac{c}{a+b} + \frac{a}{b+c}) \geq 3
+```
+- The problem becomes to prove that: 
+```math
+\frac{ (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} }{3}
+\geq (\frac{(\frac{a}{b+c} + \frac{b}{c+a} + \frac{b}{c+a} + \frac{c}{a+b} + \frac{c}{a+b} + \frac{a}{b+c}))}{3}) ^ \frac{1}{7} = 1 ^ \frac{1}{7}
+```
