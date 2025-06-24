@@ -3,7 +3,6 @@
 ```math
 (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} \geq 3
 ```
-gain
 - Readers can refer to LaTex-like formula reference here: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions
 ![Alt the question in image](olympiad_irish_math_2020.jpg)
 
@@ -19,5 +18,49 @@ gain
 (\frac{a}{b+c} + \frac{b}{c+a})  (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c}) \geq (1 ^ 7) ^ 3 = 1
 ```
 
-* $`\frac{a}{b+c} + \frac{b}{c+a}`$ is tricky part to handle. Want to prove that this is greater or equal to $` \frac{a+b}{\sqrt{(b+c)(c+a)}}`$:
-** Test
+## Tricky part $`\frac{a}{b+c} + \frac{b}{c+a}`$
+- Let u, v, w be a+b, b+c and c+a respectively. They are all positive. That results in a= (u-v+w)/2, b= (v-w+u)/2, c= (w-u+v)/2.
+- Formula (1) holds due to AM >= GM
+```math
+\frac{v}{w} + \frac{w}{v} \geq 2 
+```
+- Formula (2) holds also due to AM >= GM
+```math
+\frac{u}{w} + \frac{u}{v} \geq 2 \frac{u}{\sqrt{vw}}
+```
+- Formula (1) + (2) results in:
+
+```math
+\frac{v+u}{w} + \frac{w+u}{v} \geq 2 + 2 \frac{u}{\sqrt{vw}}
+```
+```math
+\frac{v+u-w}{w} + \frac{w+u-v}{v} \geq 2 \frac{u}{\sqrt{vw}}
+```
+```math
+\frac{b}{w} + \frac{a}{v} \geq \frac{u}{\sqrt{vw}} = \frac{a+b}{\sqrt{(b+c)(c+a)}}
+```
+
+## Back to the question
+- Return to the inequality to be proven:
+```math
+(\frac{a}{b+c} + \frac{b}{c+a})  (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c}) \geq = 1
+```
+- It is sufficient to prove that:
+```math
+(\frac{a+b}{\sqrt{(b+c)(c+a)}})  (\frac{b+c}{\sqrt{(c+a)(a+b)}})  (\frac{c+a}{\sqrt{(b+c)(a+b)}}) \geq = 1
+```
+
+- But it is equal now (recall that a,b,c are all positive):
+```math
+(a+b)(b+c)(c+a) = \sqrt{(b+c)(c+a)} \sqrt{(c+a)(a+b)} \sqrt{(b+c)(a+b)}
+```
+
+## Summary
+- The whole proof is:
+```math
+\frac{ (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} }{3}
+\geq ((\frac{a}{b+c} + \frac{b}{c+a}) (\frac{b}{c+a} + \frac{c}{a+b}) (\frac{c}{a+b} + \frac{a}{b+c})) ^ \frac{1}{21}
+\geq ((\frac{a+b}{\sqrt{(b+c)(c+a)}})  (\frac{b+c}{\sqrt{(c+a)(a+b)}}) (\frac{c+a}{\sqrt{(b+c)(a+b)}})) ^ \frac{1}{21}
+```
+
+- The number 7 in the question can be replaced by any positive number, as 1 to the power of anything is 1.
