@@ -38,7 +38,7 @@
 ```math
 \frac{b}{w} + \frac{a}{v} \geq \frac{u}{\sqrt{vw}} = \frac{a+b}{\sqrt{(b+c)(c+a)}}
 ```
-- Similar cases for $`\frac{b}{c+a} + \frac{c}{a+b}`$ and $`\frac{c}{a+b} + \frac{a}{b+c}`$
+- Similar cases to handle tricky part of $`(b/w) + (c/u)`$ and $`(c/u) + (a/v)`$
 
 ## Back to the question
 - Return to the inequality to be proven:
