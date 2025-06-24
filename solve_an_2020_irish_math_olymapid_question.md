@@ -78,3 +78,4 @@
 \frac{ (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} }{3}
 \geq (\frac{(\frac{a}{b+c} + \frac{b}{c+a} + \frac{b}{c+a} + \frac{c}{a+b} + \frac{c}{a+b} + \frac{a}{b+c}))}{3}) ^ \frac{1}{7} = 1 ^ \frac{1}{7}
 ```
+- Titu's lemma is new for me
