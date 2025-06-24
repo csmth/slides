@@ -26,16 +26,12 @@ gain
 
 -  All denominators are positive so I can rewrite by multiplication:
 ```math
-(a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq (b+c)(c+a)(c+a)(a+b)(a+b)(b+c) = ((b+c)(c+a)(a+b)) ^ 2
+(a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b))  \geq = ((b+c)(c+a)(a+b)) ^ 2
 ```
 
-- Rewrite it by substrction:
+- Prepare for Cauchy–Schwarz inequality. Let u, v, w be b+c, c+a and a+b respectively, so that a, b, c are (v+w-u)/2, (w+u-v)/2 and (u+v-w)/2:
 ```math
- (a(c+a) + b(b+c)) (b(a+b) + c(c+a)) (c(b+c) +a(a+b)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
-```
-- Prepare for brute force rewrite:
-```math
- ((a^2+b^2+c(a+b)) ((b^2+c^2+a(b+c)) ((c^2+a^2+b(c+a)) - ((b+c)(c+a)(a+b)) ^ 2 \geq 0
+ (av + bu)) (bw + cv) (cv + aw) \geq (uvw)^2
 ```
 
 
