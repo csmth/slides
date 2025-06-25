@@ -1,5 +1,5 @@
 # The question
-- See the question at [Irish math olympiad year 2020 Q5](https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf)
+- Read the question at [Irish math olympiad year 2020 Q5](https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf)
 - Given a, b, c > 0, Prove that
 ```math
 (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} \geq 3
