@@ -1,11 +1,11 @@
-# The question shown
+# The question
 - Given a, b, c > 0, Prove that
 ```math
 (\frac{a}{b+c} + \frac{b}{c+a}) ^ \frac{1}{7} + (\frac{b}{c+a} + \frac{c}{a+b}) ^ \frac{1}{7} + (\frac{c}{a+b} + \frac{a}{b+c}) ^ \frac{1}{7} \geq 3
 ```
 ![Alt the question in image](olympiad_irish_math_2020.jpg)
 - Refer to [LaTex-like mathematical expression markdown syntax here](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
-- See all questions from [year 2020 Q5](https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf)
+- See the questions from [Irish math olympiad year 2020 Q5](https://maths.ucd.ie/~dukes/Irish_Maths_Olympiad_Compendium.pdf)
 
 # Answer
 - Divide both side by 3 and applying [AM-GM inequality](https://en.wikipedia.org/wiki/AM%E2%80%93GM_inequality), it is sufficient to prove that:
