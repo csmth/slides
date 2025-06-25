@@ -66,7 +66,7 @@
 
 - The number 7 in the question can be replaced by any positive number, as 1 to the power of anything is 1.
 
-# By Titu’s Lemma or Nesbitt's inequality
+# Answer By Titu’s Lemma or Nesbitt's inequality
 - [Titu's Lemma](https://en.wikipedia.org/wiki/Titu%27s_lemma) is new for me. I learnt this alternative from chatgpt. It is known that:
 ```math
 \frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b} \geq \frac{3}{2}
